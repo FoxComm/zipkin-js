@@ -1,6 +1,6 @@
 {
   "name": "@foxcomm/zipkin-instrumentation-restify",
-  "version": "0.5.8",
+  "version": "0.5.9",
   "description": "Restify middleware for instrumentation with Zipkin.js",
   "main": "lib/index.js",
   "scripts": {

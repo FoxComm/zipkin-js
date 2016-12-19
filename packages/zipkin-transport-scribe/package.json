@@ -1,6 +1,6 @@
 {
   "name": "@foxcomm/zipkin-transport-scribe",
-  "version": "0.5.8",
+  "version": "0.5.9",
   "description": "Transports Zipkin trace data via Scribe to the collector",
   "main": "lib/index.js",
   "scripts": {

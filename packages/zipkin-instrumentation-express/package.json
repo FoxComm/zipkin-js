@@ -1,6 +1,6 @@
 {
   "name": "@foxcomm/zipkin-instrumentation-express",
-  "version": "0.5.8",
+  "version": "0.5.9",
   "description": "Express middleware for instrumentation with Zipkin.js",
   "main": "lib/index.js",
   "scripts": {
