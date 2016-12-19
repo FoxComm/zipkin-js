@@ -1,6 +1,6 @@
 {
   "name": "@foxcomm/zipkin-instrumentation-redis",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "description": "Interceptor for redis clients",
   "main": "src/zipkinClient.js",
   "scripts": {
