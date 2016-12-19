@@ -1,10 +1,10 @@
 {
   "name": "@foxcomm/zipkin-transport-scribe",
-  "version": "0.5.6",
+  "version": "0.5.7",
   "description": "Transports Zipkin trace data via Scribe to the collector",
   "main": "lib/index.js",
   "scripts": {
-    "build": "babel . -d lib",
+    "build": "../../node_modules/babel-cli/bin/babel src -d lib",
     "test": "node ../../node_modules/mocha/bin/mocha --require ../../test/helper.js",
     "prepublish": "npm run build"
   },

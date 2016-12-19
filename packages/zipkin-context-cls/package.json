@@ -1,10 +1,10 @@
 {
   "name": "@foxcomm/zipkin-context-cls",
-  "version": "0.5.6",
+  "version": "0.5.7",
   "description": "A Context API implementation that uses continuation-local-storage under the hood",
   "main": "lib/CLSContext.js",
   "scripts": {
-    "build": "babel src -d lib",
+    "build": "../../node_modules/babel-cli/bin/babel src -d lib",
     "test": "node ../../node_modules/mocha/bin/mocha --require ../../test/helper.js",
     "prepublish": "npm run build"
   },
