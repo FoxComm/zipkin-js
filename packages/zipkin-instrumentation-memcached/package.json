@@ -1,10 +1,12 @@
 {
   "name": "@foxcomm/zipkin-instrumentation-memcached",
-  "version": "0.5.4",
+  "version": "0.5.5",
   "description": "Interceptor for memcached clients",
-  "main": "src/zipkinClient.js",
+  "main": "lib/zipkinClient.js",
   "scripts": {
-    "test": "node ../../node_modules/mocha/bin/mocha --require ../../test/helper.js"
+    "build": "babel src -d lib",
+    "test": "node ../../node_modules/mocha/bin/mocha --require ../../test/helper.js",
+    "prepublish": "npm run build"
   },
   "author": "OpenZipkin <openzipkin.alt@gmail.com>",
   "license": "Apache-2.0",

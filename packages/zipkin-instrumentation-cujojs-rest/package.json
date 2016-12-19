@@ -1,10 +1,12 @@
 {
   "name": "@foxcomm/zipkin-instrumentation-cujojs-rest",
-  "version": "0.5.4",
+  "version": "0.5.5",
   "description": "Interceptor for instrumenting HTTP calls from the cujoJS rest library",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "node ../../node_modules/mocha/bin/mocha --require ../../test/helper.js"
+    "build": "babel . -d lib",
+    "test": "node ../../node_modules/mocha/bin/mocha --require ../../test/helper.js",
+    "prepublish": "npm run build"
   },
   "author": "OpenZipkin <openzipkin.alt@gmail.com>",
   "license": "Apache-2.0",
