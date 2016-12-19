@@ -1,6 +1,6 @@
 {
-  "name": "zipkin-transport-http",
-  "version": "0.5.2",
+  "name": "@foxcomm/zipkin-transport-http",
+  "version": "0.5.3",
   "description": "Transports Zipkin trace data via HTTP",
   "main": "index.js",
   "scripts": {
