@@ -6,12 +6,10 @@
     "lerna": "2.0.0-beta.30"
   },
   "scripts": {
-    "build": "babel packages -d lib",
     "lint": "node node_modules/eslint/bin/eslint.js packages",
     "test": "node node_modules/mocha/bin/mocha",
     "lerna-bootstrap": "node node_modules/lerna/bin/lerna.js bootstrap",
-    "lerna-publish": "node node_modules/lerna/bin/lerna.js publish --force-publish *",
-    "prepublish": "npm run build"
+    "lerna-publish": "node node_modules/lerna/bin/lerna.js publish --force-publish *"
   },
   "author": "OpenZipkin <openzipkin.alt@gmail.com>",
   "publishConfig": {
