@@ -17,5 +17,8 @@
   "devDependencies": {
     "kafka-please": "^0.1.5",
     "zipkin": "^0.5.2"
+  },
+  "publishConfig": {
+    "registry": "https://npm.foxcommerce.com:4873"
   }
 }

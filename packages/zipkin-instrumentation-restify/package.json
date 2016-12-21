@@ -15,5 +15,8 @@
     "isomorphic-fetch": "^2.2.1",
     "restify": "^4.1.1",
     "zipkin": "^0.5.2"
+  },
+  "publishConfig": {
+    "registry": "https://npm.foxcommerce.com:4873"
   }
 }

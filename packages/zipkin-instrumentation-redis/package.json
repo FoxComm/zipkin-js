@@ -17,5 +17,8 @@
   },
   "dependencies": {
     "redis-commands": "^1.2.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.foxcommerce.com:4873"
   }
 }

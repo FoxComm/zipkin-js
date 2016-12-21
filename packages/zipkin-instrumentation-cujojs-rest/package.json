@@ -15,5 +15,8 @@
     "express": "^4.13.4",
     "rest": "^1.3.2",
     "zipkin": "^0.5.2"
+  },
+  "publishConfig": {
+    "registry": "https://npm.foxcommerce.com:4873"
   }
 }
