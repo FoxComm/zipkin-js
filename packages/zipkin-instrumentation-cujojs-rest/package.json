@@ -1,6 +1,6 @@
 {
   "name": "@foxcomm/zipkin-instrumentation-cujojs-rest",
-  "version": "0.5.11",
+  "version": "0.5.12",
   "description": "Interceptor for instrumenting HTTP calls from the cujoJS rest library",
   "main": "lib/index.js",
   "scripts": {
