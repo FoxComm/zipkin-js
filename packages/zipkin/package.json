@@ -1,6 +1,6 @@
 {
   "name": "@foxcomm/zipkin",
-  "version": "0.5.9",
+  "version": "0.5.10",
   "description": "The core tracer for zipkin.js",
   "main": "lib/index.js",
   "scripts": {
