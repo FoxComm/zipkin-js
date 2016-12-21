@@ -1,6 +1,6 @@
 {
   "name": "@foxcomm/zipkin-transport-kafka",
-  "version": "0.5.10",
+  "version": "0.5.11",
   "description": "Transports Zipkin trace data via Kafka to the collector",
   "main": "lib/index.js",
   "scripts": {
